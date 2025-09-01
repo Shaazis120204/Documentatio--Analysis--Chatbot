@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+chromadb
+pypdf
+python-dotenv
+docx2txt
+ollama
+fastembed
+unstructured
