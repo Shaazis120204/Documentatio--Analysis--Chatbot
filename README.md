@@ -8,3 +8,29 @@ document-chatbot-llama/
 ├── vector_store/    # Auto-created vector database
 ├── requirements.txt # Python dependencies
 └── README.md        # This file
+
+Usage
+Start Ollama service:
+
+bash
+ollama serve
+Place your documents in the docs/ folder (PDF, TXT, DOCX supported)
+
+Process documents:
+
+bash
+python ingest.py
+
+Launch the chatbot:
+
+bash
+streamlit run main.py
+Initialize the system through the sidebar:
+
+Check Ollama status
+
+Download Llama model if needed
+
+Initialize the document system
+
+Start asking questions about your documents!
