@@ -7,4 +7,12 @@ python-dotenv
 docx2txt
 ollama
 fastembed
-unstructured
+unstructured[all-docs]
+pdf2image
+pytesseract
+pillow
+python-magic
+rank-bm25
+transformers
+sentence-transformers
+requests
